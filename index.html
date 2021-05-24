@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <title>Exercice 3 Partie 4</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <h1 class="col-sm-12 text-info text-center"># Exercice 3 Partie 4 #</h1>
+      <h2 class="col-sm-12 text-primary text-center">Créer quatre input : Nom; Prénom; Mail et téléphone. Vérifiez les
+        saisies et appliquer un border rouge sur les inputs
+        non valide et vert sur les valide.</h2>
+      <div class="form-group mb-2">
+        <form>
+          <div class="form-groupe">
+            <label for="LasttName">Nom :</label>
+            <input type="text" class="form-control" id="lastName" placeholder="Nom">
+          </div>
+          <div class="form-group">
+            <label for="firstName">Prénom :</label>
+            <input type="text" class="form-control" id="firstName" placeholder="Prénom">
+          </div>
+          <div class="form-group">
+            <label for="mail">Mail :</label>
+            <input type="email" class="form-control" id="mail" placeholder="exemple@gmail.com">
+          </div>
+          <div class="form-group">
+            <label for="phoneNumber">Télephone :</label>
+            <input type="phone" class="form-control" id="phoneNumber" placeholder="0000000000">
+          </div>
+          <div class="form-group">
+            <input type="button" id="btn" value="Valider">
+          </div>
+        </form>
+      </div>
+      <script src="script.js"></script>
+</body>
+
+</html>
